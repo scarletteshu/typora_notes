@@ -7,3 +7,6 @@
 *Down/up samples the input to either the given `size` or the given `scale_factor`*
 
 https://pytorch.org/docs/stable/nn.functional.html?highlight=interpolate#torch.nn.functional.interpolate
+
+### weights in cross entropy loss
+

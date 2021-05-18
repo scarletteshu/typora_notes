@@ -59,7 +59,7 @@
 
 - 描述
 
-<img src = "Normalization.assets/9ad70be49c408d464c71b8e9a006d141_720w.jpg" style="zoom:40"/>
+<img src = "Normalization.assets/9ad70be49c408d464c71b8e9a006d141_720w.jpg" style="zoom: 67%;"/>
 
 - 示意图
 
@@ -67,7 +67,7 @@
 
 - BN计算
 
-  <img src="Normalization.assets/beb44145200caafe24fe88e7480e9730_720w.jpg" style="zoom:30"/>
+  <img src="Normalization.assets/beb44145200caafe24fe88e7480e9730_720w.jpg" style="zoom: 67%;"/>
 
   > BN应用在非线性映射前
 
