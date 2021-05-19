@@ -59,7 +59,7 @@
 
 - 描述
 
-<img src = "Normalization.assets/9ad70be49c408d464c71b8e9a006d141_720w.jpg" style="zoom: 67%;"/>
+<img src = "Normalization.assets/9ad70be49c408d464c71b8e9a006d141_720w.jpg" style="zoom: 60%;"/>
 
 - 示意图
 
