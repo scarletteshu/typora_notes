@@ -1,4 +1,4 @@
-# jupyter
+# Jupyter
 
 ### jupyter connect server
 
@@ -23,7 +23,7 @@ python
 from IPython.lib import passwd
 passwd()
 
->>>'sha1:11482904e637:fc8a256c3be0958dbdde3755754e79ed6b604d19'
+>>>'sha1:315f33a4f10e:f3d639b955ef090ee70bcd09d6fe0a83750611df'
 ```
 
 4. change config
@@ -35,7 +35,7 @@ vi /home/zhanglingshu/.jupyter/jupyter_lab_config.py
 ​	文末添加：
 
 ```
-'sha1:11482904e637:fc8a256c3be0958dbdde3755754e79ed6b604d19'
+'sha1:315f33a4f10e:f3d639b955ef090ee70bcd09d6fe0a83750611df'
 c.NotebookApp.ip='*'
 c.NotebookApp.password=u'sha1:11482904e637:fc8a256c3be0958dbdde3755754e79ed6b604d19'
 c.NotebookApp.open_browser = False
@@ -61,3 +61,18 @@ jupyter lab
 
 ​	浏览器：```localhost:9001```
 
+### jupyter multi envs
+
+1. 在需要的虚拟环境中安装ipykernel
+
+   ```bash
+   conda install ipykernel
+   ```
+
+2. 安装menus
+
+   ```bash
+   python -m ipykernel install --user --name keras --display-name "Python (keras)"
+   ```
+
+3. 刷新jupyterlab
