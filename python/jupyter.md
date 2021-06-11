@@ -23,7 +23,7 @@ python
 from IPython.lib import passwd
 passwd()
 
->>>'sha1:315f33a4f10e:f3d639b955ef090ee70bcd09d6fe0a83750611df'
+'sha1:91a33afc946f:20526579c365095ddb27475c6bb409a64650ee7a'
 ```
 
 4. change config
@@ -35,9 +35,9 @@ vi /home/zhanglingshu/.jupyter/jupyter_lab_config.py
 ​	文末添加：
 
 ```
-'sha1:315f33a4f10e:f3d639b955ef090ee70bcd09d6fe0a83750611df'
+'sha1:91a33afc946f:20526579c365095ddb27475c6bb409a64650ee7a'
 c.NotebookApp.ip='*'
-c.NotebookApp.password=u'sha1:11482904e637:fc8a256c3be0958dbdde3755754e79ed6b604d19'
+c.NotebookApp.password=u'sha1:91a33afc946f:20526579c365095ddb27475c6bb409a64650ee7a'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port = 9001
 c.InteractiveShellApp.matplotlib ='inline'

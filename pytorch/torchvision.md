@@ -1,13 +1,24 @@
 # ```torchvision```
 
+0.4.0及以前版本不支持PIL image以外的输入
+
 ### transforms
 
-1.  ```transforms.ToTensor()```
+1. ```transforms.ToTensor()```
 
    输入为PIL image或者ndarray: (H x W x C)
-​仅对uint8类型的图像转换到[0,1]
+   ​仅对uint8类型的图像转换到[0,1]
 
-## Dataset
+2.  ```transforms.Resize(size, interpolation)```
+
+    输入为PIL image或Tensor：(BxCxHxW)， 或(CxHxW)
+
+    - size: int or sequence. if int and H>W:（size *H/W, size）
+    - interpolation: default```InterpolationMode.BILINEAR```
+
+    
+
+### Dataset
 
 ```python
 class testDataset(Dataset):
